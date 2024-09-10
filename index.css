@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.div-header{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(80deg, #fe0c03 10%, #000000 100%);
+    color: white;
+    padding: 30px;
+    position: relative;
+}
+
+header .logo{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 100px; /*largura da imagem */ 
+    height: auto; /* altura da imagem */
+}
+
+header .logo input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    outline: none;
+    font-size: 16px;
+    transition: box-shadow 0.3s;
+    margin-left: 85px;
+}
+
+header .logo:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+header nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-top: 30px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+header nav ul li{
+    margin-top: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+    margin-left: 20px;
+}
+
+header nav a:hover {
+    color: #ff000d;
+    transition: 0.8s;
+}
+
+
+/* Banner */
+.inicio-01 {
+    position: relative; 
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    padding: 120px 0;
+    min-height: 60px; 
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    border: 10px solid #fff; 
+    box-sizing: border-box; 
+}
+
+.inicio-banner {
+    position: relative;
+    padding: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.inicio-01{
+    background-color: #000000;
+}
+
+
+
+
+
+/* sessão 2 */
+
+.inicio-produtos {
+    padding:  80px;
+    text-align: center;
+    background-color: #000000; 
+}
+
+.inicio-produtos h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+
+.div-hamburgues{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.hamburgues{
+    background-color: white;
+    border: 3px solid #ff0000;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 20px;
+}
+
+
+
+.hamburgues img {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    border: 3px solid #000000;
+}
+
+
+.hamburgues h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: black;
+}
+
+.hamburgues p {
+    font-size: 18px;
+    color: #e50914;
+    margin-bottom: 15px;
+}
+
+.hamburgues .btn {
+    background: #d32d35;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+
+.hamburgues .btn:hover {
+    background-color: #fc0000;
+    color: #dddddd;
+    transition: 0.5s;
+    box-shadow: 0px 0px 25px #ff1500; /* Adiciona uma sombra ao redor do botão quando o mouse passa sobre ele */
+}
+
+.hamburgues:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
