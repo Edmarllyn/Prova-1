@@ -18,8 +18,8 @@
 
 /* ------------------- início do Header ------------------- */
 header {
-    background: linear-gradient(80deg, #fe0c03 10%, #000000 100%); /* Gradiente de vermelho para preto */
-    color: white; /* Cor do texto em branco */
+    background: linear-gradient(80deg,#ef371e 10%, #000000 100%); /* Gradiente de vermelho para preto */
+    color: #fffff7; /* Cor do texto em branco */
     padding: 30px; /* Espaçamento interno do header */
     position: relative; /* Define posição relativa para ajustar o layout */
 }
@@ -46,11 +46,11 @@ header .logo input {
     font-size: 16px; /* Tamanho da fonte do input */
     transition: box-shadow 0.3s; /* Transição suave da sombra */
     margin-left: 85px; /* Margem à esquerda do campo de input */
-    border: 2px solid #000000; /* Borda preta do campo de input */
+    border: 2px solid #0b110d; /* Borda preta do campo de input */
 }
 
 header .logo:focus {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra ao focar no input */
+    box-shadow: 0 0 5px #0b110d(0, 0, 0, 0.2); /* Sombra ao focar no input */
 }
 
 .header-input {
@@ -63,7 +63,7 @@ header .logo:focus {
 }
 
 .header-button {
-    background-color: #007bff; /* Cor de fundo azul do botão */
+    background-color:#1737fc; /* Cor de fundo azul do botão */
     border: none; /* Remove a borda padrão */
     padding: 10px 20px; /* Espaçamento interno do botão */
     cursor: pointer; /* Muda o cursor para o estilo de clique */
@@ -74,7 +74,7 @@ header .logo:focus {
 }
 
 .header-button:hover {
-    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+    background-color:#1737fc; /* Cor de fundo do botão ao passar o mouse */
 }
 
 .div-header i {
@@ -101,7 +101,7 @@ header nav ul li {
 }
 
 header nav a {
-    color: #fff; /* Cor do texto dos links em branco */
+    color:#fffff7; /* Cor do texto dos links em branco */
     text-decoration: none; /* Remove sublinhado */
     font-weight: 500; /* Peso da fonte */
     transition: color 0.3s; /* Transição suave na cor do link */
@@ -109,7 +109,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #ff000d; /* Muda a cor do link ao passar o mouse para vermelho */
+    color:#ef371e; /* Muda a cor do link ao passar o mouse para vermelho */
     transition: 0.8s; /* Suaviza a transição da cor */
 }
 
@@ -128,7 +128,7 @@ header nav a:hover {
 .inicio-01 {
     position: relative; /* Define posição relativa para a sessão */
     overflow: hidden; /* Oculta o conteúdo que ultrapassa os limites */
-    color: #fff; /* Cor do texto em branco */
+    color: #fffff7; /* Cor do texto em branco */
     text-align: center; /* Centraliza o texto */
     padding: 120px 0; /* Adiciona espaçamento vertical */
     min-height: 60px; /* Define a altura mínima */
@@ -137,7 +137,7 @@ header nav a:hover {
 .background-video {
     width: 100%; /* A largura do vídeo ocupa 100% do espaço */
     height: 100%; /* A altura do vídeo ocupa 100% do espaço */
-    border: 10px solid #fff; /* Borda branca ao redor do vídeo */
+    border: 10px solid #fffff7; /* Borda branca ao redor do vídeo */
     box-sizing: border-box; /* Inclui borda no cálculo do tamanho */
 }
 
@@ -149,7 +149,7 @@ header nav a:hover {
 }
 
 .inicio-01 {
-    background-color: #000000; /* Fundo da sessão como preto */
+    background-color:#0b110d; /* Fundo da sessão como preto */
 }
 /* ------------------- fim da sessão 1 ------------------- */
 
@@ -166,13 +166,13 @@ header nav a:hover {
 .inicio-produtos {
     padding: 80px; /* Adiciona preenchimento interno */
     text-align: center; /* Centraliza o texto */
-    background-color: #000000; /* Fundo preto */
+    background-color:#000000; /* Fundo preto */
 }
 
 .inicio-produtos h2 {
     font-size: 36px; /* Tamanho da fonte do título */
     margin-bottom: 30px; /* Margem inferior do título */
-    color: #ffffff; /* Cor do título */
+    color: #fffff7; /* Cor do título */
 }
 
 .div-hamburgues {
@@ -183,11 +183,11 @@ header nav a:hover {
 }
 
 .hamburgues {
-    background-color: white; /* Fundo branco para os produtos */
-    border: 3px solid #ff0000; /* Borda vermelha ao redor dos produtos */
+    background-color:#fffff7; /* Fundo branco para os produtos */
+    border: 3px solid #ef371e; /* Borda vermelha ao redor dos produtos */
     border-radius: 15px; /* Bordas arredondadas */
     text-align: center; /* Centraliza o texto */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ao redor dos produtos */
+    box-shadow: 0 4px 8px#0b110d(0, 0, 0, 0.1); /* Sombra ao redor dos produtos */
     transition: transform 0.3s, box-shadow 0.3s; /* Animações suaves */
     padding: 20px; /* Preenchimento interno */
     width: 300px; /* Largura dos produtos ajustada */
@@ -204,18 +204,18 @@ header nav a:hover {
     width: 100%; /* A largura da imagem ocupa 100% do espaço disponível */
     height: 200px; /* Altura ajustada automaticamente com base na largura */
     border-radius: 20px; /* Bordas arredondadas nas imagens */
-    border: 3px solid #000000; /* Borda preta ao redor das imagens */
+    border: 3px solid #0b110d; /* Borda preta ao redor das imagens */
 }
 
 .hamburgues h3 {
     font-size: 20px; /* Tamanho da fonte do título dos produtos */
     margin: 10px 0; /* Espaçamento em cima e embaixo */
-    color: black; /* Cor preta para o título */
+    color: #0b110d; /* Cor preta para o título */
 }
 
 .hamburgues p {
     font-size: 20px; /* Tamanho da fonte da descrição */
-    color: #e50914; /* Cor vermelha */
+    color: #ef371e; /* Cor vermelha */
     font-weight: 700; /* Texto em negrito */
     margin-bottom: 25px; /* Margem inferior da descrição */
 }
@@ -223,8 +223,8 @@ header nav a:hover {
 .btn {
     display: inline-block; /* Exibição em bloco inline */
     padding: 10px 20px; /* Preenchimento interno do botão */
-    color: white; /* Cor do texto do botão */
-    background-color: #e50914; /* Cor de fundo do botão */
+    color: #fffff7; /* Cor do texto do botão */
+    background-color:#f05d4a; /* Cor de fundo do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 5px; /* Bordas arredondadas */
     text-decoration: none; /* Remove sublinhado */
@@ -235,7 +235,7 @@ header nav a:hover {
 }
 
 .btn:hover {
-    background-color: #bf060a; /* Cor de fundo ao passar o mouse */
+    background-color: #ff1e00; /* Cor de fundo ao passar o mouse */
 }
 
 /* ------------------- fim da sessão 2 ------------------- */
@@ -251,8 +251,8 @@ header nav a:hover {
 
 /* ------------------- início do Footer ------------------- */
 .footer-inicio {
-    background: linear-gradient(90deg, #000000 0%, #434343 100%); /* Gradiente de fundo */
-    color: #fff; /* Cor do texto em branco */
+    background: linear-gradient(90deg, #0b110d 0%, #434343 100%); /* Gradiente de fundo */
+    color:#fffff7; /* Cor do texto em branco */
     padding: 40px 20px; /* Preenchimento interno */
     text-align: center; /* Centraliza o texto */
     display: flex;
@@ -278,18 +278,18 @@ header nav a:hover {
 .footer-h3 {
     font-size: 24px; /* Tamanho da fonte do título */
     margin-bottom: 15px; /* Margem inferior do título */
-    color: #fff; /* Cor do título */
+    color: #fffff7; /* Cor do título */
     font-weight: bold; /* Texto em negrito */
 }
 
 .footer-section p {
     font-size: 16px; /* Tamanho da fonte do texto */
     margin-bottom: 10px; /* Margem inferior do texto */
-    color: #ccc; /* Cor do texto */
+    color: #fffff7; /* Cor do texto */
 }
 
 .footer-section a {
-    color: #fff; /* Cor do link */
+    color:#fffff7; /* Cor do link */
     text-decoration: none; /* Remove sublinhado dos links */
     font-size: 20px; /* Tamanho dos ícones de redes sociais */
     margin: 0 10px; /* Margem horizontal dos ícones */
@@ -317,8 +317,8 @@ header nav a:hover {
 }
 
 .div-icon i:hover {
-    background-color: #fff; /* Cor de fundo ao passar o mouse */
-    color: #000; /* Cor dos ícones ao passar o mouse */
+    background-color: #fffff7; /* Cor de fundo ao passar o mouse */
+    color:#0b110d; /* Cor dos ícones ao passar o mouse */
     transform: scale(1.1); /* Aumenta o tamanho dos ícones ao passar o mouse */
 }
 
