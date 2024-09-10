@@ -1,0 +1,105 @@
+.inicio-produtos {
+    padding: 80px; /* Adiciona preenchimento interno */
+    text-align: center; /* Centraliza o texto */
+    background-color: #000000; /* Define o fundo preto */
+}
+
+.inicio-produtos h2 {
+    font-size: 36px; /* Define o tamanho da fonte do título */
+    margin-bottom: 30px; /* Margem inferior do título */
+    color: #ffffff; /* Cor do título */
+}
+
+.div-hamburgues {
+    display: flex; /* Organiza os produtos em linha */
+    gap: 20px; /* Espaçamento entre os itens */
+    flex-wrap: wrap; /* Permite que os itens quebrem de linha */
+    justify-content: center; /* Centraliza os produtos */
+}
+
+.hamburgues {
+    background-color: white; /* Fundo branco para os produtos */
+    border: 3px solid #ff0000; /* Borda vermelha ao redor dos produtos */
+    border-radius: 15px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ao redor dos produtos */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animações suaves */
+    padding: 20px; /* Preenchimento interno */
+    width: 220px; /* Largura dos produtos */
+}
+
+.hamburgues img {
+    width: 200px; /* Define a largura da imagem dos produtos */
+    height: 250px; /* Define a altura da imagem dos produtos */
+    border-radius: 20px; /* Bordas arredondadas nas imagens */
+    border: 3px solid #000000; /* Borda preta ao redor das imagens */
+}
+
+.hamburgues h3 {
+    font-size: 20px; /* Tamanho da fonte do título dos produtos */
+    margin: 10px 0; /* Espaçamento em cima e embaixo */
+    color: black; /* Cor preta para o título */
+}
+
+.hamburgues p {
+    font-size: 20px; /* Tamanho da fonte da descrição */
+    color: #e50914; /* Cor vermelha */
+    font-weight: 700;
+    margin-bottom: 25px; /* Margem inferior */
+}
+
+.btn {
+    display: inline-block; /* Exibição em bloco inline */
+    padding: 10px 20px; /* Preenchimento interno do botão */
+    color: white; /* Cor do texto do botão */
+    background-color: #e50914; /* Cor de fundo do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 18px; /* Tamanho da fonte do botão */
+    transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+}
+
+.btn:hover {
+    background-color: #ff0000; /* Cor do botão ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o botão um pouco ao passar o mouse */
+}
+
+footer {
+    background-color: #e50914; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    padding: 40px 20px; /* Preenchimento interno do rodapé */
+    text-align: center; /* Centraliza o texto do rodapé */
+}
+
+.footer-container {
+    display: flex; /* Organiza as seções do rodapé em linha */
+    gap: 20px; /* Espaçamento entre as seções */
+    flex-wrap: wrap; /* Permite que as seções quebrem de linha */
+    justify-content: center; /* Centraliza as seções */
+}
+
+.footer-section {
+    max-width: 300px; /* Largura máxima das seções */
+}
+
+.footer-section h3 {
+    font-size: 24px; /* Tamanho da fonte dos títulos do rodapé */
+    margin-bottom: 10px; /* Margem inferior dos títulos */
+}
+
+.footer-section p {
+    font-size: 16px; /* Tamanho da fonte dos parágrafos */
+    margin-bottom: 10px; /* Margem inferior dos parágrafos */
+}
+
+.footer-section a {
+    display: block; /* Exibição em bloco */
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin-bottom: 5px; /* Margem inferior dos links */
+}
+
+.footer-section a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}

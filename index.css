@@ -1,191 +1,322 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Nunito", sans-serif;
-    box-sizing: border-box;
-}
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-.div-header{
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+* {
+    margin: 0; /* Remove margens de todos os elementos */
+    padding: 0; /* Remove preenchimento de todos os elementos */
+    font-family: "Nunito", sans-serif; /* Define a fonte padrão como 'Nunito' */
+    box-sizing: border-box; /* Inclui bordas e preenchimento no cálculo da largura e altura */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap'); /* Importa a fonte 'Nunito' */
+
+
+
+
+
+
+
+
+
+
+/* ------------------- início do Header ------------------- */
 header {
-    background: linear-gradient(80deg, #fe0c03 10%, #000000 100%);
-    color: white;
-    padding: 30px;
-    position: relative;
+    background: linear-gradient(80deg, #fe0c03 10%, #000000 100%); /* Gradiente de vermelho para preto */
+    color: white; /* Cor do texto em branco */
+    padding: 30px; /* Espaçamento interno do header */
+    position: relative; /* Define posição relativa para ajustar o layout */
 }
 
-header .logo{
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
+header .logo {
+    font-size: 16px; /* Tamanho da fonte do logo */
+    font-weight: 700; /* Texto em negrito */
+    text-transform: uppercase; /* Texto em letras maiúsculas */
+    display: flex; /* Define o layout como flexbox */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
 }
 
-header img{
-    width: 100px; /*largura da imagem */ 
-    height: auto; /* altura da imagem */
+header img {
+    width: 100px; /* Largura da imagem do logo */
+    height: auto; /* Altura ajustada automaticamente com base na largura */
 }
 
 header .logo input {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    width: 200px;
-    outline: none;
-    font-size: 16px;
-    transition: box-shadow 0.3s;
-    margin-left: 85px;
+    padding: 10px; /* Espaçamento interno do campo de input */
+    border: none; /* Remove bordas */
+    border-radius: 4px; /* Bordas arredondadas */
+    width: 200px; /* Largura do campo de input */
+    outline: none; /* Remove borda de foco padrão */
+    font-size: 16px; /* Tamanho da fonte do input */
+    transition: box-shadow 0.3s; /* Transição suave da sombra */
+    margin-left: 85px; /* Margem à esquerda do campo de input */
+    border: 2px solid #000000; /* Borda preta do campo de input */
 }
 
 header .logo:focus {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra ao focar no input */
 }
 
+.header-input {
+    width: 100%; /* O input ocupa 100% da largura disponível dentro da caixa de busca */
+    padding: 10px 20px; /* Espaçamento interno do input */
+    border: none; /* Remove a borda padrão */
+    outline: none; /* Remove a borda de foco padrão */
+    font-size: 16px; /* Tamanho da fonte do input */
+    border-radius: 30px 0 0 30px; /* Bordas arredondadas apenas no lado esquerdo */
+}
+
+.header-button {
+    background-color: #007bff; /* Cor de fundo azul do botão */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    cursor: pointer; /* Muda o cursor para o estilo de clique */
+    color: white; /* Cor do texto do botão em branco */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    border-radius: 0 30px 30px 0; /* Bordas arredondadas apenas no lado direito */
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.header-button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.div-header i {
+    font-size: 18px; /* Tamanho da fonte do ícone */
+}
 
 header nav {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    margin-top: 30px;
-    margin-right: 80px;
-    font-size: 20px;
+    position: absolute; /* Posiciona o menu de navegação de forma absoluta */
+    top: 20px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+    margin-top: 30px; /* Margem superior */
+    margin-right: 80px; /* Margem à direita */
+    font-size: 20px; /* Tamanho da fonte dos links */
 }
 
 header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Alinha os itens em uma linha */
+    gap: 20px; /* Espaçamento entre os itens da lista */
 }
 
-header nav ul li{
-    margin-top: 20px;
+header nav ul li {
+    margin-top: 20px; /* Margem superior dos itens da lista */
 }
 
 header nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s;
-    margin-left: 20px;
+    color: #fff; /* Cor do texto dos links em branco */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: 500; /* Peso da fonte */
+    transition: color 0.3s; /* Transição suave na cor do link */
+    margin-left: 20px; /* Margem à esquerda dos links */
 }
 
 header nav a:hover {
-    color: #ff000d;
-    transition: 0.8s;
+    color: #ff000d; /* Muda a cor do link ao passar o mouse para vermelho */
+    transition: 0.8s; /* Suaviza a transição da cor */
 }
 
+/* ------------------- fim do Header ------------------- */
 
-/* Banner */
+
+
+
+
+
+
+
+
+
+/* ------------------- início da sessão 1 ------------------- */
 .inicio-01 {
-    position: relative; 
-    overflow: hidden;
-    color: #fff;
-    text-align: center;
-    padding: 120px 0;
-    min-height: 60px; 
+    position: relative; /* Define posição relativa para a sessão */
+    overflow: hidden; /* Oculta o conteúdo que ultrapassa os limites */
+    color: #fff; /* Cor do texto em branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 120px 0; /* Adiciona espaçamento vertical */
+    min-height: 60px; /* Define a altura mínima */
 }
 
 .background-video {
-    width: 100%;
-    height: 100%;
-    border: 10px solid #fff; 
-    box-sizing: border-box; 
+    width: 100%; /* A largura do vídeo ocupa 100% do espaço */
+    height: 100%; /* A altura do vídeo ocupa 100% do espaço */
+    border: 10px solid #fff; /* Borda branca ao redor do vídeo */
+    box-sizing: border-box; /* Inclui borda no cálculo do tamanho */
 }
 
 .inicio-banner {
-    position: relative;
-    padding: 50px;
-    height: 100%;
-    width: 100%;
+    position: relative; /* Define posição relativa para o banner */
+    padding: 50px; /* Adiciona espaçamento interno ao banner */
+    height: 100%; /* Define a altura como 100% */
+    width: 100%; /* Define a largura como 100% */
 }
 
-.inicio-01{
-    background-color: #000000;
+.inicio-01 {
+    background-color: #000000; /* Fundo da sessão como preto */
 }
+/* ------------------- fim da sessão 1 ------------------- */
 
 
 
 
 
-/* sessão 2 */
 
+
+
+
+
+/* ------------------- início da sessão 2 ------------------- */
 .inicio-produtos {
-    padding:  80px;
-    text-align: center;
-    background-color: #000000; 
+    padding: 80px; /* Adiciona preenchimento interno */
+    text-align: center; /* Centraliza o texto */
+    background-color: #000000; /* Fundo preto */
 }
 
-.inicio-produtos h2{
-    font-size: 36px;
-    margin-bottom: 30px;
+.inicio-produtos h2 {
+    font-size: 36px; /* Tamanho da fonte do título */
+    margin-bottom: 30px; /* Margem inferior do título */
+    color: #ffffff; /* Cor do título */
 }
 
-
-.div-hamburgues{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;  
+.div-hamburgues {
+    display: flex; /* Organiza os produtos em linha */
+    gap: 20px; /* Espaçamento entre os itens */
+    flex-wrap: wrap; /* Permite que os itens quebrem de linha */
+    justify-content: center; /* Centraliza os produtos */
 }
 
-.hamburgues{
-    background-color: white;
-    border: 3px solid #ff0000;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    padding: 20px;
+.hamburgues {
+    background-color: white; /* Fundo branco para os produtos */
+    border: 3px solid #ff0000; /* Borda vermelha ao redor dos produtos */
+    border-radius: 15px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ao redor dos produtos */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animações suaves */
+    padding: 20px; /* Preenchimento interno */
+    width: 300px; /* Largura dos produtos ajustada */
+    box-sizing: border-box; /* Inclui borda e preenchimento no cálculo da largura */
 }
-
-
 
 .hamburgues img {
-    width: 200px;
-    height: 250px;
-    border-radius: 20px;
-    border: 3px solid #000000;
+    width: 100%; /* A largura da imagem ocupa 100% do espaço disponível */
+    height: auto; /* Altura ajustada automaticamente com base na largura */
+    border-radius: 20px; /* Bordas arredondadas nas imagens */
+    border: 3px solid #000000; /* Borda preta ao redor das imagens */
 }
 
-
 .hamburgues h3 {
-    font-size: 20px;
-    margin: 10px 0;
-    color: black;
+    font-size: 20px; /* Tamanho da fonte do título dos produtos */
+    margin: 10px 0; /* Espaçamento em cima e embaixo */
+    color: black; /* Cor preta para o título */
 }
 
 .hamburgues p {
-    font-size: 18px;
-    color: #e50914;
-    margin-bottom: 15px;
+    font-size: 20px; /* Tamanho da fonte da descrição */
+    color: #e50914; /* Cor vermelha */
+    font-weight: 700; /* Texto em negrito */
+    margin-bottom: 25px; /* Margem inferior da descrição */
 }
 
-.hamburgues .btn {
-    background: #d32d35;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 20px;
-    font-weight: 600;
-    transition: background-color 0.3s;
+.btn {
+    display: inline-block; /* Exibição em bloco inline */
+    padding: 10px 20px; /* Preenchimento interno do botão */
+    color: white; /* Cor do texto do botão */
+    background-color: #e50914; /* Cor de fundo do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove sublinhado */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    font-weight: bold; /* Texto em negrito */
+    cursor: pointer; /* Muda o cursor para estilo de clique */
+    transition: background-color 0.3s; /* Transição suave na cor de fundo */
 }
 
-
-.hamburgues .btn:hover {
-    background-color: #fc0000;
-    color: #dddddd;
-    transition: 0.5s;
-    box-shadow: 0px 0px 25px #ff1500; /* Adiciona uma sombra ao redor do botão quando o mouse passa sobre ele */
+.btn:hover {
+    background-color: #bf060a; /* Cor de fundo ao passar o mouse */
 }
 
-.hamburgues:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+/* ------------------- fim da sessão 2 ------------------- */
+
+
+
+
+
+
+
+
+
+
+/* ------------------- início do Footer ------------------- */
+.footer-inicio {
+    background: linear-gradient(90deg, #000000 0%, #434343 100%); /* Gradiente de fundo */
+    color: #fff; /* Cor do texto em branco */
+    padding: 40px 20px; /* Preenchimento interno */
+    text-align: center; /* Centraliza o texto */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
+
+.footer-container {
+    display: flex; /* Flexbox para organizar as seções */
+    justify-content: space-around; /* Espaçamento igual entre as seções */
+    flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+    max-width: 1200px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+}
+
+.footer-section {
+    flex: 1; /* Permite que as seções cresçam igualmente */
+    margin: 0 20px; /* Margem horizontal entre as seções */
+    min-width: 200px; /* Largura mínima para evitar encolhimento excessivo */
+}
+
+.footer-h3 {
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin-bottom: 15px; /* Margem inferior do título */
+    color: #fff; /* Cor do título */
+    font-weight: bold; /* Texto em negrito */
+}
+
+.footer-section p {
+    font-size: 16px; /* Tamanho da fonte do texto */
+    margin-bottom: 10px; /* Margem inferior do texto */
+    color: #ccc; /* Cor do texto */
+}
+
+.footer-section a {
+    color: #fff; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado dos links */
+    font-size: 20px; /* Tamanho dos ícones de redes sociais */
+    margin: 0 10px; /* Margem horizontal dos ícones */
+    transition: color 0.3s; /* Transição suave na cor dos ícones */
+}
+
+.footer-section a:hover {
+    color: #ff000d; /* Cor dos ícones ao passar o mouse */
+}
+
+/* Adicionando um pequeno destaque para os ícones */
+.div-icon {
+    display: flex; /* Alinha os ícones em linha */
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    margin-top: 10px; /* Margem superior */
+}
+
+.div-icon a {
+    display: inline-block; /* Exibição em bloco inline para os ícones */
+}
+
+.div-icon i {
+    font-size: 30px; /* Tamanho dos ícones */
+    padding: 10px; /* Espaçamento interno dos ícones */
+    border-radius: 50%; /* Bordas arredondadas para o círculo */
+    background-color: #333; /* Cor de fundo dos ícones */
+    transition: background-color 0.3s, transform 0.3s; /* Transição suave */
+}
+
+.div-icon i:hover {
+    background-color: #fff; /* Cor de fundo ao passar o mouse */
+    color: #000; /* Cor dos ícones ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o tamanho dos ícones ao passar o mouse */
+}
+
+/* ------------------- fim do Footer ------------------- */
