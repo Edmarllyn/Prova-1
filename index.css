@@ -194,9 +194,15 @@ header nav a:hover {
     box-sizing: border-box; /* Inclui borda e preenchimento no cálculo da largura */
 }
 
+
+  
+  .hamburgues:hover {
+    transform: translatey(-10px); /* Move a caixa para frente */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra mais intensa no hover */
+  }
 .hamburgues img {
     width: 100%; /* A largura da imagem ocupa 100% do espaço disponível */
-    height: auto; /* Altura ajustada automaticamente com base na largura */
+    height: 200px; /* Altura ajustada automaticamente com base na largura */
     border-radius: 20px; /* Bordas arredondadas nas imagens */
     border: 3px solid #000000; /* Borda preta ao redor das imagens */
 }
@@ -290,9 +296,6 @@ header nav a:hover {
     transition: color 0.3s; /* Transição suave na cor dos ícones */
 }
 
-.footer-section a:hover {
-    color: #ff000d; /* Cor dos ícones ao passar o mouse */
-}
 
 /* Adicionando um pequeno destaque para os ícones */
 .div-icon {
