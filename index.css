@@ -322,4 +322,8 @@ header nav a:hover {
     transform: scale(1.1); /* Aumenta o tamanho dos ícones ao passar o mouse */
 }
 
+.footer-section iframe{
+    width:150px;
+    height: 150px;
+}
 /* ------------------- fim do Footer ------------------- */
