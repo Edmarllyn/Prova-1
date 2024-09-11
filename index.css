@@ -127,11 +127,13 @@ header nav a:hover {
 /* ------------------- início da sessão 1 ------------------- */
 .inicio-01 {
     position: relative; /* Define posição relativa para a sessão */
+    background-color: #000000; /* Fundo da sessão como preto */
     overflow: hidden; /* Oculta o conteúdo que ultrapassa os limites */
     color: #fffff7; /* Cor do texto em branco */
     text-align: center; /* Centraliza o texto */
     padding: 120px 0; /* Adiciona espaçamento vertical */
     min-height: 60px; /* Define a altura mínima */
+
 }
 
 .background-video {
@@ -146,10 +148,6 @@ header nav a:hover {
     padding: 50px; /* Adiciona espaçamento interno ao banner */
     height: 100%; /* Define a altura como 100% */
     width: 100%; /* Define a largura como 100% */
-}
-
-.inicio-01 {
-    background-color:#0b110d; /* Fundo da sessão como preto */
 }
 /* ------------------- fim da sessão 1 ------------------- */
 
