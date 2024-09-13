@@ -141,6 +141,7 @@ header nav a:hover {
     text-align: center; /* Centraliza o texto */
     padding: 120px 0; /* Adiciona espaçamento vertical */
     min-height: 60px; /* Define a altura mínima */
+    border: 3px solid #f5f5f5;
 
 }
 
@@ -173,6 +174,7 @@ header nav a:hover {
     padding: 80px; /* Adiciona preenchimento interno */
     text-align: center; /* Centraliza o texto */
     background-color:#000000; /* Fundo preto */
+    border: 3px solid #fffff7;
 }
 
 .inicio-produtos h2 {
@@ -247,6 +249,59 @@ header nav a:hover {
 /* ------------------- fim da sessão 2 ------------------- */
 
 
+
+
+/* -------------------- Inicio da Sessão 3 ------------------- */
+
+.section-cadastro-03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(80deg,#000000 10%, #ff000075 100%); /* Gradiente de vermelho para preto */
+    border: 3px solid #f5f5f5;
+
+}
+
+.div-section-03 {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.text-section3 {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.text-section3 h1, .text-section3 h2 {
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif;
+    color: #f5f5f5;
+    font-size: 25px;
+}
+
+.text-section3 p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #f5f5f5;
+}
+
+.text-section3 .span-1 {
+    color: #ff5e00; /* Cor de destaque */
+}
+
+.image-section {
+    max-width: 370px;
+    height: 370px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+
+/* --------------------- --Fim Da Sessão 3 ------------------- */
 
 
 
