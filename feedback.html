@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro - Edy lanches </title>
+    <title>Feedback - Edy Hamburgues</title>
     <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/5965870c94.js" crossorigin="anonymous"></script>
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
-    
+
+
 </head>
 <body>
+
     <!-- Inclusão do plugin de acessibilidade -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
@@ -23,16 +25,15 @@
       <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
       </script>
-
+   
+    <!-- Cabeçalho -->
     <header>
-        
         <div class="div-header">
             <div class="logo"> 
-                <a href="">
-                    <img src="img/logo.png" alt="" loading="lazy">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo Edy Hamburgues" loading="lazy">
                 </a>
-
-                <input type="text" class="header-input" placeholder="Buscar...">
+                <input type="text" class="header-input" placeholder="Buscar..." >
                 <button class="header-button">
                     <i class="fas fa-search"></i>
                 </button>
@@ -40,71 +41,51 @@
         
             <nav>
                 <ul>
-                    <li><a href="cardapio.html">VER CARDÁPIO</a></li> <br>
                     <li><a href="inicio.html">INÍCIO</a></li>
-                    <li><a href="feedback.html">FEEDBACK</a></li>
+                    <li><a href="cadastro.html">FAZER LOGIN</a></li>
+                    <li><a href="cardapio.html"> CARDAPIO</a></li>
                 </ul>
             </nav>
-           
         </div>
-        </header>
+    </header>
 
-    <section class="section-cadastro">
-      <div class="div-cadastro">
-        <h2 class="h2-cadastro">CADASTRO <br> EDY LANCHES</h2>
-        <form action="#" method="post">
-            <div class="form-cadastro">
-                <label for="name">Nome Completo:</label>
-                <input type="text" id="name" name="name" required placeholder="Nome Completo:">
+<section class="section-feedback">
+    <div class="pg-feedback">
+        <h1>Deixe Seu Feedback</h1>
+        <p>Obrigado por visitar a Edy Hamburgues! Sua opinião é muito importante para nós. Por favor, preencha o formulário abaixo para nos contar sobre a sua experiência.</p>
+        <form action="[URL do Script de Processamento]" method="post">
+            <label for="name">Seu Nome:</label>
+            <input type="text" id="name" name="name" required placeholder="DIGITE SEU NOME...">
+            
+            <label for="email">Seu E-mail:</label>
+            <input type="text" id="email" name="email" required placeholder="DIGITE SEU E-mail...">
+            
+            <label for="quality">Qualidade dos Hambúrgueres:</label>
+            <input type="text" id="quality" name="quality" required placeholder="QUALIDADES DOS HAMBÚRGUES...">
+            
+            <label for="service">Atendimento ao Cliente:</label>
+            <input type="text" id="service" name="service" required placeholder="ATENDIMENTO AO CLIENTE...">
+            
+            <label for="environment">Ambiente e Limpeza:</label>
+            <input type="text" id="environment" name="environment" required placeholder="AMBIENTE E LIMPEZA...">
+            
+            <label for="price">Preço:</label>
+            <input type="text" id="price" name="price" required placeholder="PREÇOS...">
+            
+            <label for="comments">Comentários Adicionais:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea placeholder="COMENTÁRIOS ADICIONAIS...">
+            
+            <div class="btn-feedback">
+                <button type="submit" class="btn" >Cadastrar</button>
             </div>
 
-            <div class="form-cadastro">
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required placeholder="E-mail:">
-            </div>
-
-            <div class="form-cadastro">
-                <label for="password">Senha:</label>
-                <input type="password" id="password" name="password" required placeholder="Senha:">
-            </div>
-
-            <div class="form-cadastro">
-                <label for="phone">Telefone:</label>
-                <input type="tel" id="phone" name="phone" required placeholder="Telefone:">
-            </div>
-
-            <div class="form-cadastro">
-                <label for="address">Endereço:</label>
-                <input type="text" id="address" name="address" required placeholder="Endereço:">
-            </div>
-            <div class="btn-cadastro">
-            <button type="submit" class="btn" >Cadastrar</button>
-            </div>
         </form>
+        <div class="feedback-message">
+            <p>Agradecemos pelo seu tempo e feedback!</p>
+        </div>
     </div>
 </section>
 
-
-<section class="section-cadastro-02">
-    <h2 class="h2-informacoes">INFORMAÇÕES</h2>
-
-        <div class=" div-informacoes">
-            <h2>HORÁRIO DE FUNCIONAMENTO</h2>
-            <hr>
-            <h4> <br>Quarta a Sexta: das 18h à 0h <br> <br>
-                Sábado: das 12h à 1h <br> <br>
-                Domingo: das 12h às 18h</h4>
-        </div>
-
-
-        <div class=" div-informacoes">
-            <h2>ENDEREÇO</h2>
-            <hr>
-
-            <h4> <br> Av. Ançarinhas, 675  -
-                 Jardim Lageado</h4>
-        </div>
-</section>
 
     <footer>
         <div class="footer-inicio">

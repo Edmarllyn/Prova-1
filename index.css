@@ -13,10 +13,6 @@
 
 
 
-
-
-
-/* ------------------- início do Header ------------------- */
 header {
     background: linear-gradient(80deg,#ef371e 10%, #000000 100%); /* Gradiente de vermelho para preto */
     color: #fffff7; /* Cor do texto em branco */
@@ -121,18 +117,10 @@ header nav a:hover {
 
 
 
-/* ------------------- fim do Header ------------------- */
 
 
 
 
-
-
-
-
-
-
-/* ------------------- início da sessão 1 ------------------- */
 .inicio-01 {
     position: relative; /* Define posição relativa para a sessão */
     background-color: #000000; /* Fundo da sessão como preto */
@@ -158,18 +146,12 @@ header nav a:hover {
     height: 100%; /* Define a altura como 100% */
     width: 100%; /* Define a largura como 100% */
 }
-/* ------------------- fim da sessão 1 ------------------- */
 
 
 
 
 
 
-
-
-
-
-/* ------------------- início da sessão 2 ------------------- */
 .inicio-produtos {
     padding: 80px; /* Adiciona preenchimento interno */
     text-align: center; /* Centraliza o texto */
@@ -246,12 +228,11 @@ header nav a:hover {
     background-color: #ff1e00; /* Cor de fundo ao passar o mouse */
 }
 
-/* ------------------- fim da sessão 2 ------------------- */
 
 
 
 
-/* -------------------- Inicio da Sessão 3 ------------------- */
+
 
 .section-cadastro-03 {
     display: flex;
@@ -301,16 +282,11 @@ header nav a:hover {
 }
 
 
-/* --------------------- --Fim Da Sessão 3 ------------------- */
 
 
 
 
 
-
-
-
-/* ------------------- início do Footer ------------------- */
 .footer-inicio {
     background: linear-gradient(90deg, #0b110d 0%, #434343 100%); /* Gradiente de fundo */
     color: #fffff7; /* Cor do texto em um branco levemente amarelado */
@@ -389,14 +365,10 @@ header nav a:hover {
     cursor: pointer; /* Muda o cursor do mouse para o formato de "mãozinha" quando sobre o mapa*/
 }
 
-/* ------------------- fim do Footer ------------------- */
 
 
 
 
-
-
-/* ------------------ TELA DE CADASTRO -------------------- */
 .section-cadastro {
     background-color: #000000;
     display: flex; /* Adiciona flexbox */
@@ -408,6 +380,8 @@ header nav a:hover {
 }
 
 
+
+
 .div-cadastro {
     background-color: #000000; /* Define a cor de fundo da div como preto */
     padding: 20px; /* Adiciona um espaçamento interno (padding) de 20px em todos os lados */
@@ -417,6 +391,9 @@ header nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave em torno da div, com uma leve elevação */
 }
 
+
+
+
 .h2-cadastro {
     text-align: center; /* Centraliza o texto do título (h2) */
     margin-bottom: 20px; /* Adiciona um espaçamento de 20px abaixo do título */
@@ -424,6 +401,9 @@ header nav a:hover {
     font-size: 35px;
     margin-bottom: 45px;
 }
+
+
+
 
 .form-cadastro {
     margin-bottom: 15px; /* Adiciona um espaçamento de 15px abaixo de cada elemento dentro do formulário */
@@ -436,6 +416,9 @@ header nav a:hover {
     color: #555; /* Define a cor do texto do label como um cinza médio */
 }
 
+
+
+
 .form-cadastro input {
     width: 100%; /* Faz com que o campo de input ocupe 100% da largura do seu contêiner */
     padding: 10px; /* Adiciona um espaçamento interno de 10px dentro do campo de input */
@@ -444,9 +427,12 @@ header nav a:hover {
     font-size: 16px; /* Define o tamanho da fonte dentro do campo como 16px */
 }
 
+
+
 .form-cadastro label {
     color: #ccc; /* Altera a cor do texto do label para um cinza mais claro (#ccc) */
 }
+
 
 .btn-cadastro button {
     width: 100%; /* Faz com que o botão ocupe 100% da largura disponível */
@@ -461,6 +447,12 @@ header nav a:hover {
     margin-top: 45px;
 }
 
+
+
+
+
+
+/* Estilo para o botão de cadastro quando o mouse está sobre ele */
 .btn-cadastro button:hover {
     background-color: #e67e00; /* Muda a cor de fundo do botão para um tom mais escuro de laranja quando o mouse está sobre ele */
     transform: scale(1.05); /* Aumenta levemente o tamanho do botão em 5% quando o mouse está sobre ele */
@@ -468,65 +460,194 @@ header nav a:hover {
 }
 
 
+
+
+
+
+
 /* Estilizando a seção principal com fundo de imagem congelado */
 .section-cadastro-02 {
     background: linear-gradient(180deg, #000000b0 8.33%, rgb(0, 0, 0) 100%), url(img/fundo-css.jpg); /* Aplica um gradiente linear e uma imagem de fundo */
-    padding: 150px;
-    background-color: #f5f5f5;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centraliza o conteúdo dentro da seção */
-    background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a área */
-    background-position: center; /* Centraliza a imagem */
-    background-attachment: fixed; /* Mantém a imagem fixa durante o rolar */
-    background-repeat: no-repeat; /* Impede a repetição da imagem */
-    border: 3px solid #f5f5f5;
+    padding: 150px; /* Adiciona espaçamento interno de 150px ao redor do conteúdo da seção */
+    background-color: #f5f5f5; /* Define a cor de fundo como cinza claro, mas é sobreposto pela imagem e gradiente */
+    border-radius: 8px; /* Arredonda os cantos da seção com um raio de 8px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao redor da seção */
+    text-align: center; /* Centraliza o texto dentro da seção */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a área da seção */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-attachment: fixed; /* Mantém a imagem fixa durante o rolar da página */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    border: 3px solid #f5f5f5; /* Adiciona uma borda de 3px com a mesma cor do fundo da seção */
 }
+
+
 
 /* Estilo para os títulos h2 dentro da seção */
 .section-cadastro-02 .h2-informacoes {
-    font-family: 'Arial', sans-serif;
-    color: #ffffff;
-    margin: 20px 0; /* Espaçamento acima e abaixo do título */
-    padding-bottom: 10px;
-    font-size: 40px;
-    margin-bottom: 60px;
+    font-family: 'Arial', sans-serif; /* Define a fonte como Arial, com uma fonte genérica sans-serif como alternativa */
+    color: #ffffff; /* Define a cor do texto como branco */
+    margin: 20px 0; /* Adiciona espaçamento de 20px acima e abaixo do título */
+    padding-bottom: 10px; /* Adiciona um espaçamento interno de 10px na parte inferior do título */
+    font-size: 40px; /* Define o tamanho da fonte como 40px */
+    margin-bottom: 60px; /* Adiciona um espaçamento de 60px abaixo do título */
 }
 
-.div-informacoes h2{
-    font-family: 'Arial', sans-serif;
-    color: #ffffff;
-    margin: 20px 0; /* Espaçamento acima e abaixo do título */
-    padding-bottom: 10px;
-    font-weight: 700;
-    font-size: 25px;
+
+
+
+
+/* Estilo para os títulos h2 e h4 dentro das divs de informações */
+.div-informacoes h2 {
+    font-family: 'Arial', sans-serif; /* Define a fonte como Arial, com uma fonte genérica sans-serif como alternativa */
+    color: #ffffff; /* Define a cor do texto como branco */
+    margin: 20px 0; /* Adiciona espaçamento de 20px acima e abaixo do título */
+    padding-bottom: 10px; /* Adiciona um espaçamento interno de 10px na parte inferior do título */
+    font-weight: 700; /* Define o peso da fonte como negrito (700) */
+    font-size: 25px; /* Define o tamanho da fonte como 25px */
 }
 
 /* Estilizando as divs para ficarem lado a lado */
 .section-cadastro-02 > .div-informacoes {
-    display: inline-block;
-    width: 45%;
-    vertical-align: top;
-    margin-right: 5%;
+    display: inline-block; /* Define o comportamento das divs para que fiquem lado a lado */
+    width: 45%; /* Define a largura das divs como 45% do contêiner pai */
+    vertical-align: top; /* Alinha verticalmente o topo das divs */
+    margin-right: 5%; /* Adiciona uma margem direita de 5% para separar as divs */
     text-align: left; /* Garante que o texto dentro das divs esteja alinhado à esquerda */
 }
 
-/* Estilo para o hr */
+/* Estilo para o hr dentro das divs de informações */
 .section-cadastro-02 .div-informacoes hr {
-    border: 0;
-    border-top: 1px solid #ddd;
-    margin: 10px 0;
+    border: 0; /* Remove a borda padrão do hr */
+    border-top: 1px solid #ddd; 
+    margin: 10px 0; /* Adiciona um espaçamento de 10px acima e abaixo do hr */
 }
 
-/* Estilizando os títulos h5 e h4 dentro das divs */
+/* Estilo para os títulos h4 dentro das divs de informações */
 .section-cadastro-02 h4 {
-    font-family: 'Arial', sans-serif;
-    color: #ffffff;
-    line-height: 1.6;
-    font-size: 20px;
+    font-family: 'Arial', sans-serif; /* Define a fonte como Arial, com uma fonte genérica sans-serif como alternativa */
+    color: #ffffff; /* Define a cor do texto como branco */
+    line-height: 1.6; /* Define o espaçamento entre linhas como 1.6 vezes o tamanho da fonte */
+    font-size: 20px; /* Define o tamanho da fonte como 20px */
 }
+
+
+
 
 /* Garantindo que o último div não tenha margem à direita */
 .section-cadastro-02 > div:last-child {
-    margin-right: 0;
+    margin-right: 0; /* Remove a margem direita do último div para evitar espaço extra */
+}
+
+
+/* Estilo para o mapa de endereço */
+.maps-endereco {
+    width: 360px; /* Define a largura do mapa como 360px */
+    height: 150px; /* Define a altura do mapa como 150px */
+    margin-top: 20px; /* Adiciona um espaçamento de 20px acima do mapa */
+}
+
+
+/* Contêiner principal do formulário de feedback */
+.pg-feedback {
+    width: 90%; /* Define a largura do formulário como 90% do contêiner pai */
+    max-width: 600px; /* Define a largura máxima do formulário como 600px */
+    margin: 50px auto; /* Adiciona um espaçamento de 50px acima e abaixo e centraliza horizontalmente */
+    padding: 20px; /* Adiciona um espaçamento interno de 20px ao redor do conteúdo do formulário */
+    background: #fff; /* Define a cor de fundo como branca */
+    border-radius: 10px; /* Arredonda os cantos do formulário com um raio de 10px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao redor do formulário */
+    border: 1px solid #ddd; /* Adiciona uma borda de 1px com a cor cinza claro (#ddd) */
+}
+
+
+
+/* Estilo do título do formulário de feedback */
+.pg-feedback h1 {
+    text-align: center; /* Centraliza o título horizontalmente */
+    color: #5cb85c; /* Define a cor do texto como verde */
+    font-size: 36px; /* Define o tamanho da fonte como 36px */
+    margin-bottom: 20px; /* Adiciona um espaçamento de 20px abaixo do título */
+}
+
+
+
+/* Estilo dos parágrafos dentro do formulário de feedback */
+.pg-feedback p {
+    font-size: 1rem; /* Define o tamanho da fonte como 1rem (tamanho padrão do texto) */
+    margin-bottom: 20px; /* Adiciona um espaçamento de 20px abaixo dos parágrafos */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Estilo do formulário dentro do contêiner de feedback */
+.pg-feedback form {
+    display: flex; /* Usa o layout flexível para organizar os itens no formulário */
+    flex-direction: column; /* Alinha os itens do formulário em uma coluna vertical */
+}
+
+
+
+
+/* Estilo dos rótulos (labels) dentro do formulário de feedback */
+.pg-feedback label {
+    display: block; /* Faz com que o label ocupe toda a linha, para alinhar melhor com o campo de input */
+    font-weight: bold; /* Deixa o texto do label em negrito */
+    margin-bottom: 5px; /* Adiciona um espaçamento de 5px abaixo do label */
+    color: #000000; /* Define a cor do texto do label como preto */
+    margin-top: 20px; /* Adiciona um espaçamento de 20px acima do label */
+}
+
+/* Estilo dos campos de input dentro do formulário de feedback */
+.pg-feedback input {
+    width: 100%; /* Faz com que o campo de input ocupe 100% da largura do seu contêiner */
+    padding: 10px; /* Adiciona um espaçamento interno de 10px dentro do campo de input */
+    border: 1px solid #ccc; /* Define uma borda de 1px ao redor do campo, com a cor cinza claro (#ccc) */
+    border-radius: 5px; /* Arredonda levemente os cantos do campo de input */
+    font-size: 16px; /* Define o tamanho da fonte dentro do campo como 16px */
+}
+
+
+
+
+/* Estilo do botão dentro do formulário de feedback */
+.pg-feedback .btn-feedback button {
+    width: 100%; /* Faz com que o botão ocupe 100% da largura do seu contêiner */
+    padding: 15px; /* Adiciona um espaçamento interno de 15px dentro do botão */
+    background-color: #ff8c00; /* Define a cor de fundo do botão como laranja */
+    color: #fff; /* Define a cor do texto do botão como branco */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 8px; /* Arredonda os cantos do botão com um raio de 8px */
+    font-size: 16px; /* Define o tamanho da fonte dentro do botão como 16px */
+    cursor: pointer; /* Muda o cursor para uma mão quando passa sobre o botão */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona uma transição suave para mudanças de cor, escala e sombra */
+    margin-top: 20px; /* Adiciona um espaçamento de 20px acima do botão */
+}
+
+
+
+/* Estilo do botão de feedback ao passar o mouse sobre ele */
+.pg-feedback .btn-feedback button:hover {
+    background-color: #e67e00; /* Muda a cor de fundo do botão para um tom mais escuro de laranja quando o mouse está sobre ele */
+    transform: scale(1.05); /* Aumenta levemente o tamanho do botão em 5% quando o mouse está sobre ele */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra mais intensa ao redor do botão no hover */
+}
+
+
+
+
+
+/* Mensagem de feedback dentro do formulário */
+.pg-feedback .feedback-message {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-top: 20px; /* Adiciona um espaçamento de 20px acima da mensagem de feedback */
+    color: #555; /* Define a cor do texto como cinza escuro */
+}
+
+
+
+
+
+/* Seção de feedback no geral */
+.section-feedback {
+    background-color: #000000; /* Define a cor de fundo da seção como preto */
+    padding: 50px 0; /* Adiciona espaçamento de 50px acima e abaixo do conteúdo da seção */
 }
